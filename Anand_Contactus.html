@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact</title>
+    <style>
+        body{
+            background: url("Anand_bg2.jpg") no-repeat;
+            background-size: cover;
+        }
+        .btn{
+            background-color: rgb(20, 20, 70);
+            color: rgb(229, 217, 217);
+            padding: 10px;
+            outline: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        function f2()
+        {
+            confirm("Are you sure you want to sumbit?")
+        }
+    </script>
+    
+</head>
+<body>
+    <table id="header" width="100%" height="100" bgcolor="blue">
+        <tr>
+            <td>
+                <table width="100%" cellpadding="15" cellspacing="0" align="center">
+                    <tr>
+                        <td>
+                            <font face="arial" color="white" size="8">
+                                Let's <i>get Fit</i>
+                            </font>
+                        </td>
+                        <td>
+                            &nbsp;
+                        </td>
+                        <td>
+                            <a href="Anand_home.html">
+                                <font face="arial" color="white" size="5">Home</font>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="blog.html">
+                                <font face="arial" color="white" size="5">Blog</font>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="Anand_Contactus.html">
+                                <font face="arial" color="white" size="5">Contact</font>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="login.html">
+                                <font face="arial" color="white" size="5">Login</font>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <h1>Let's talk about everything</h1>
+    <form>
+        <table height="450" width="1200" align="center">
+            <tr>
+            <tr>
+                <th>Name:</th>
+                <td> <input type="text" placeholder="In Capital Letter" maxlength=20 required></td>
+            </tr>
+            <tr>
+                <th>Email:</th>
+                <td> <input placeholder="Enter email ID" type="email" maxlength=30 required></td>
+            </tr>
+            <tr>
+                <th>Password:</th>
+                <td> <input placeholder="Enter password" type="password" value="" required></td>
+            </tr>
+            <tr>
+                <th>Phone Number:</th>
+                <td> <input placeholder="please your 10 digit phone no." type="number" required></td>
+            </tr>
+            <tr>
+                <th>Enter your query:</th>
+                <td> <textarea row=3 cols=20 input placeholder="enter your query" minlength="7" </textarea></textarea></td>
+            </tr>
+            <tr>
+                <th>Select gender:</th>
+                <td><input type="radio" name="gender" unchecked required> male <input type="radio" name="gender" required>female <input type="radio" name="gender" required>transgender</td>
+            </tr>
+            <tr>
+                <th>Query related to:</th>
+                <td><select>
+                        <option>Select</option>
+                        <option>Fitness Blog(Workout at home)</option>
+                        <option>Health</option>
+                        <option>Fitness(gym)</option>
+                        <option>Other</option>
+                    </select>
+            </tr>
+            <tr>
+                <td colspan=2 align="center"><input type="submit" class="btn" onclick="f2()"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
